@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mapa Kruskal</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+  <script src='https://npmcdn.com/@turf/turf/turf.min.js'></script>
+  <style>
+    #map {
+      width: 100%;
+      height: 95%;
+    }
+    #button_calcular{
+        position:absolute;
+        display:inline-block;
+        top: 95%;
+        left:45%;
+        text-decoration: none;
+        padding: 15px;
+        font-weight: 600;
+        font-size: 15px;
+        color: #ffffff;
+        background-color: #1883ba;
+        border-radius: 50px;
+      }
+  </style>
+</head>
+
+<body>
+  <button type="button" name="calcular" id="button_calcular">Calcular</button>
+  <div id="map">
+    <div id="b_calcular">
+
+    </div>
+  </div>
+
+  <script type="text/javascript" src="Mapa.js"></script>
+  <script type="text/javascript" src="Kruskal.js">
+  </script>
+</body>
+
+</html>
